@@ -5,13 +5,12 @@ const schema = new mongoose.Schema(
 name: { type:String },
 username: { type: String },
 password: { type: String },
-avatarURL: { type: String }
 },
 //Fecha de Create y Update//
 {
     timestamps : true,
 }
 );
-const User= mongoose.model("User", schema);
+const Admin= mongoose.model("Admin", schema);
 
-module.exports= User;
+module.exports= Admin;

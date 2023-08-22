@@ -57,7 +57,7 @@ Ten en cuenta que la contraseña del usuario no puede almacenarse en claro en la
 Definición del modelo de Tweet `models/tweet.model.js`:
 
 - message: el contenido del tweet
-- user: el creador del tweet, será una relación de 1..N, es decir, un usuario podrá estar relacionado con N tweets
+- user: el creador del tweet, será una relación de 1..N, es decir, unº   usuario podrá estar relacionado con N tweets0.
 - La fecha de creación del tweet (`{ timestamps: true }`)
 
 ## Iteración 6
